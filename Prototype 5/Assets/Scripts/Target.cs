@@ -35,7 +35,7 @@ public class Target : MonoBehaviour
     {
         Destroy(gameObject);
 
-        gameManager.UpdateScore(pointValue);
+        //gameManager.UpdateScore(pointValue);
     }
 
     private void OnTriggerEnter(Collider other)
