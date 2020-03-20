@@ -22,13 +22,13 @@ public class Target : MonoBehaviour
         targetRb.AddForce(RandomForce(), ForceMode.Impulse);
         targetRb.AddTorque(RandomTorque(), RandomTorque(), RandomTorque(), ForceMode.Impulse);
         transform.position = RandomSpawnPos();
-        
+
     }
-    
+
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnMouseDown()
